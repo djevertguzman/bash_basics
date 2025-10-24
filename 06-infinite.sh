@@ -10,3 +10,8 @@ done
 # exercise: write a script that continues to look up
 # the ip address of a given hostname (using nslookup) until
 # the user decides to stop
+echo "enter a hostname you would like me to lookup."
+read hostname
+while [ true ]; do
+  nslookup "$hostname"
+done
