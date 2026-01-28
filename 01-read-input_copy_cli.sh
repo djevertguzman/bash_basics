@@ -1,9 +1,9 @@
 #!/bin/bash
 
-echo "Hello Steven Lopez!"
+echo "Hello Evert Guzman!"
 echo "How old are you?" 
 read age
-echo 'Thanks Steven! I see you are ' $age ' years old'
+echo 'Thanks Evert! I see you are ' $age ' years old'
 
 echo "What school do you currently attend?"
 read school
