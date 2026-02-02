@@ -13,8 +13,9 @@ done
 # operation applied to them. For instance, use ping, 
 # traceroute, or nslookup with other options.
 
+servers="ggc.edu microaoft.com bsky.app mastodon.social"
+
 for server in $servers; do
     ping $server
     echo "----------------------------"
 done
-
