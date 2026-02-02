@@ -14,9 +14,7 @@ done
 # traceroute, or nslookup with other options.
 
 servers="ggc.edu microcenter.com bsky.app mastodon.social"
-
 for server in $servers; do
     ping $server
     echo "----------------------------"
 done
-
